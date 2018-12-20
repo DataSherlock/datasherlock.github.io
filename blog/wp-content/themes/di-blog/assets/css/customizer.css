@@ -1,0 +1,40 @@
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-left_footer_setting, .customize-partial-edit-shortcut.customize-partial-edit-shortcut-center_footer_setting, .customize-partial-edit-shortcut.customize-partial-edit-shortcut-right_footer_setting {
+	top: -25px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-left_footer_setting {
+	right: 70px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-right_footer_setting {
+	left: 140px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-top_main_menu_hidden_field {
+	top: 8px;
+	left: 65px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-blogname {
+	top: 10px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-blogdescription {
+	top: 42px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-front_slider_endis {
+	left: 33px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-back_to_top {
+	top: -18px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-sb_menu_onoff {
+	top: -18px;
+}
+
+.widget_recent_entries span.customize-partial-edit-shortcut {
+	margin: -1px 0 0 -1px !important;
+}

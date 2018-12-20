@@ -1,0 +1,252 @@
+#optionsframework .section-info,
+#optionsframework .section {
+	padding:10px 10px 0;
+}
+.toggle_option_group.group_close > .section ,
+.toggle_option_group.group_close > .section-info {
+	display:none;
+	}
+.toggle_option_group.group_open > .section-info,
+.toggle_option_group.group_open > .section {
+	display:block;
+	}
+.groupTitle {
+	background-color: #999 !important;
+	background: url("../images/arrow_right.png") no-repeat scroll right 10px center;
+    cursor: pointer !important;
+}
+.groupTitle.open {
+	background: url("../images/arrow_down.png") no-repeat scroll right 10px center #999 !important;
+ 
+}
+.toggle_option_group .section-info,
+.toggle_option_group .section {
+    background-color:#eee;
+}
+#optionsframework-wrap #optionsframework-sidebar {
+    float: left;
+    margin-left: 20px;
+    width: 160px;
+}
+#optionsframework{
+	float:left;
+	width:780px;
+	}
+#optionsframework-wrap {
+	background: #fff;
+	border-radius: 10px;
+	border: 3px solid #ccc;
+}
+.clear{
+	clear:both;
+	}
+#optionsframework {
+max-width: 700px !important;
+}
+#optionsframework .sections {
+padding: 10px 10px 0;
+}
+#optionsframework-sidebar .postbox{
+	min-width:100px;
+	}
+#optionsframework .section-typography .wp-picker-container{
+	margin-bottom:10px;
+	}
+	
+/* options framework*/
+
+.accordion-group-item{
+	display:none;
+	}
+
+#section-bg_pattern img {
+  width: 30px;
+  height: 30px;
+}
+
+.format-setting pre.of-css-editor,
+.format-setting .type-css pre.of-css-editor,
+.format-setting pre.of-javascript-editor,
+.format-setting .type-javascript pre.of-javascript-editor {
+  bottom: 0;
+  height: 280px;
+  left: 0;
+  margin: 0 !important;
+  right: 0;
+  top: 0;
+}
+
+
+/* * options framework* */
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#optionsframework {
+    max-width: none;
+}
+
+#optionsframework-wrap {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#optionsframework-wrap a:hover {
+    text-decoration: none;
+}
+
+#optionsframework-wrap h2 {
+    background-color: #eee;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 1px 1px 0 #fff inset;
+    text-shadow: 1px 1px #fff;
+}
+
+#optionsframework-wrap h2.nav-tab-wrapper {
+    width: 200px;
+    float: left;
+    padding: 0;
+    margin-right: 1px;
+    border-bottom: 0;
+    margin-bottom: 10px;
+}
+
+h2 .nav-tab {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 13px;
+    margin: 0;
+    border-right: 1px solid #ccc;
+    margin-right: -1px;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 1px solid #ccc!important;
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 0 #fff inset;
+}
+
+h2 .nav-tab-active {
+    border-right: 2px solid #fff;
+    margin-right: -2px;
+    position: relative;
+    z-index:9;
+}
+
+h2 a.nav-tab:hover {
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+
+h2 a.nav-tab-active:hover {
+    border-bottom: inherit;
+    background: inherit;
+}
+
+div#optionsframework-metabox {
+    float: left;
+    width: calc(100% - 201px);
+    padding-top: 0;
+}
+
+#optionsframework {
+    max-width: none;
+}
+
+.postbox {
+    border: 0;
+    margin-bottom: 0;
+    border-left: 1px solid #ccc;
+    margin-left: -1px;
+}
+
+#optionsframework-wrap .nav-tab-wrapper .nav-tab {
+
+}
+
+#optionsframework-wrap .nav-tab-wrapper .nav-tab-active {
+    background-color: #fff;
+    border-right: 1px solid #FFF;
+    margin-right: -1px;
+}
+
+#optionsframework-wrap .group {
+    padding: 10px 20px 10px;
+}
+
+
+#optionsframework-wrap .group .section {
+    /*padding: 0 10px;
+    margin-bottom: 20px;*/
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 20px;
+}
+
+#optionsframework-wrap .group .section h4 {
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+
+.wp-color-result {
+    height: 30px;
+}
+
+.wp-color-result:after {
+    line-height: 30px;
+}
+
+#optionsframework-wrap .group .section input[type="text"],
+#optionsframework-wrap .group .section input[type="number"],
+#optionsframework-wrap .group .section textarea,
+#optionsframework-wrap .group .section select {
+    height: auto;
+    padding: 10px;
+}
+
+#optionsframework-submit {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: -1px;
+}
+
+
+#wpbody-content .metabox-holder {
+    padding-top: 0;
+}
+
+#setting-error-save_options {
+    margin-left: 201px;
+    margin-bottom: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#optionsframework-wrap {
+    border-radius: 5px;
+}
+
+#optionsframework-wrap .group .section-text.mini .option .explain {
+    margin-left: 10px;
+}
+
+#optionsframework-wrap .group .section-accordion:hover {
+    cursor: pointer;
+}
+#optionsframework .section-select .explain{
+	margin-left:20px;
+	
+	}
+	
+.delete-section{
+  background-color: #e14d43;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+	}
